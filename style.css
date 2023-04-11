@@ -1,0 +1,82 @@
+.body{
+    font-size: 13px;
+   
+    font-weight: 200;
+}
+
+.container{
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    max-width: 68.5%;
+    /* height: 30%; */
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    padding: 30px 10px;
+}
+.conntainer{
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+
+.label{
+  font-weight: bolder;
+}
+
+.add-submit{
+  margin-top: 10px;
+  margin-left: 5%;
+  text-align: center;
+  line-height: 0;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: rgb(25, 36, 194);
+  background: linear-gradient(0deg, rgb(24, 35, 182) 0%, rgb(26, 42, 212) 100%);
+  border: none;
+}
+.add-submit:hover{  background: rgb(0,3,255);
+background: linear-gradient(0deg, rgb(49, 53, 250) 0%, rgb(23, 137, 252) 100%);
+}
+input[type="submit"].add-submit:first-of-type {
+  margin-left: 25%;
+}
+
+
+.search-tag{
+    min-height: 30px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+  @media screen and (max-width: 1089px) {
+    .conntainer {
+      max-width: 90vw;
+      margin-left: 2%;
+}
+    .container {
+    max-width: 89.5%;
+    margin-left: 2%;
+  }
+  }
+  /* @media screen and (min-width: 1400px) {
+    .search-tag {
+      min-width: 80%;
+}
+  }
+     */
